@@ -9,7 +9,7 @@ Plataforma de transferencias, nuestro objetivo es crear una solución para facil
 - Must have (es necesario)
 - Should have (es recomendable)
 - Could have (podría implementares)
-- Won't have (no lo queremos... quizá en un futuro)
+- Won't have (no se implemetará... quizá en un futuro)
 
 
 ## **Requerimientos funcionales.**
