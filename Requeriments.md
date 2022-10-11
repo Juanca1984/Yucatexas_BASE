@@ -36,8 +36,8 @@ En este proyecto contruiremos una plataforma de transferencias, con el objetivo 
 |RNF01|La plataforma actualizará el saldo mediante la API.|Must|
 |RNF02|La plataforma deberá recolectar los datos de la factura.|Must|
 |RNF03|La plataforma deberá realizar las operaciones con respecto al saldo dependiendo del tipo de pago.|Must|
-|RNF04|Se registrará la factura del proveedor en el registro de gastos|Could|
-|RNF05|El saldo disponible se actualizará según las transacciones realizadas.|Must|
-|RNF06|Se podrán asociar cuentas del banco. |Must|
+|RNF04|El saldo disponible se actualizará según las transacciones realizadas.|Must|
+|RNF05|Se podrán asociar cuentas de banco. |Must|
+|RNF06|Se registrará la factura del proveedor en el registro de gastos|Could|
 |RNF07|Se mostrarán en el calendario los pagos por realizar y se eliminarán los pagos realizados.|Should|
 
