@@ -2,7 +2,7 @@
 
 ## **Resumen del Proyecto:** 
  
-Plataforma de transferencias, nuestro objetivo es crear una solución para facilitar procesos de pagos, sistemas de administración y control de inventarios.
+En este proyecto contruiremos una plataforma de transferencias, con el objetivo de ofrecer una solución viable para agilizar procesos de pagos, sistemas de administración y control de inventarios.
 
 ## **Método de priorización:** MosCow
 
