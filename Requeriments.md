@@ -2,7 +2,7 @@
 
 ## **Resumen del Proyecto:** 
  
-En este proyecto contruiremos una plataforma de transferencias, con el objetivo de ofrecer una solución viable para diferentes empresas en la cual podrán agilizar procesos de pagos, sistemas de administración y control de inventarios
+En este proyecto contruiremos una plataforma de transferencias, con el objetivo de ofrecer una solución viable para diferentes empresas en la cual podrán agilizar procesos de pagos, sistemas de administración y control de inventarios.
 
 ## **Método de priorización:** MosCow
 
@@ -17,21 +17,16 @@ En este proyecto contruiremos una plataforma de transferencias, con el objetivo 
 
 |**CODIGO**|**Requerimiento**|**Prioridad**|
 | :-: | :-: | :-: |
-|RF01|El usuario deberá registrarse para acceder al sistema.|Must|
-|RF02|El usuario ya registrado podrá acceder al sistema |Must|
-|RF03|El usuario podrá visualizar las facturas dadas por los proveedores.|Must|
-|RF04|El usuario podrá mandar a validar los gastos registrados.|Must|
-|RF05|Existirá dos tipos de cuenta, la de usuario y la de los proveedores.|Must|
-|RF07|Los proveedores podrán acceder a la página y hacer el llenado de sus facturas.|Must|
-|RF08|El usuario podrá ver en todo momento el saldo que se tiene.|Must|
-|RF09|Se podrán visualizar los pagos hechos hasta el momento.|Must|
-|RF10|Después de su validación se agendará el pago.|Should|
-|RF11|El pago podrá ser manual o automático.|Should|
-|RF12|Se podrá visualizar los pagos pendientes y acceder a los detalles.|Should|
-|RF13|El usuario podrá visualizar su estado de cuenta de cierto período de tiempo.|Should|
-|RF14|Se podrá visualizar los pagos pendientes y acceder a los detalles.|Should|
-|RF15|Se podrán visualizar los pagos hechos hasta el momento.|Should|
-|RF16|Se podrá elegir la cuenta con la que se pagará la deuda.|Should|
+|RF01|El usuario podrá registrarse y acceder al sistema.|Must|
+|RF02|El usuario podrá visualizar las facturas dadas por los proveedores.|Must|
+|RF03|El usuario podrá mandar a validar los gastos registrados.|Must|
+|RF04|Existirá dos tipos de cuenta, la de usuario y la de los proveedores.|Must|
+|RF05|Los proveedores podrán realizar el llenado de facturas en la plataforma.|Must|
+|RF06|El sistema desplegará una pestaña para visualizar pagos, pagos pendientes y saldos actuales. |Could|
+|RF07|Se podrán registrar y administrar pagos recurrentes. |Could|
+|RF08|El pago se podrá efectuar de manera manual o automática.|Should|
+|RF09|El usuario podrá visualizar su estado de cuenta de cierto período de tiempo.|Should|
+|RF10|Se podrá elegir la cuenta con la que se pagará la deuda.|Should|
 
 ## **Requerimientos no funcionales.**
 
