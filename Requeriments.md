@@ -2,11 +2,14 @@
 
 ## **Resumen del Proyecto:** 
  
-Prototipo de un sistema de votación basado en la tecnología blockchain para la elección de un representante del aula.
+Plataforma de transferencias, nuestro objetivo es crear una solución para facilitar procesos de pagos, sistemas de administración y control de inventarios.
 
 ## **Método de priorización:** MosCow
 
-Siendo Must el más importante por del software, Should el siguiente en importancia, could el tercero en importancia y Would aquello que no es tan importante para el software.
+*Must have (es necesario)
+*Should have (es recomendable)
+*Could have (podría implementares)
+*Won't have (no lo queremos... quizá en un futuro)
 
 
 ## **Requerimientos funcionales.**
