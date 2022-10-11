@@ -1,4 +1,4 @@
-# **Requerimientos** ✏️📋
+# **Especificación de requerimientos** ✏️📋
 
 ## **Resumen del Proyecto:** 
  
