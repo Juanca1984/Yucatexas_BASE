@@ -1,7 +1,7 @@
 # **Requerimientos** ✏️📋
 
 ## **Resumen del Proyecto:** 
-
+ 
 Prototipo de un sistema de votación basado en la tecnología blockchain para la elección de un representante del aula.
 
 ## **Método de priorización:** MosCow
