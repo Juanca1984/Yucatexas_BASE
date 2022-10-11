@@ -20,7 +20,7 @@ En este proyecto contruiremos una plataforma de transferencias, con el objetivo 
 |RF01|El usuario podrá registrarse y acceder al sistema.|Must|
 |RF02|El usuario podrá visualizar las facturas dadas por los proveedores.|Must|
 |RF03|El usuario podrá mandar a validar los gastos registrados.|Must|
-|RF04|Existirá dos tipos de cuenta, la de usuario y la de los proveedores.|Must|
+|RF04|Existirán dos tipos de cuenta, la de usuario y la de los proveedores.|Must|
 |RF05|Los proveedores podrán realizar el llenado de facturas en la plataforma.|Must|
 |RF06|El sistema desplegará una pestaña para visualizar pagos, pagos pendientes y saldos actuales. |Could|
 |RF07|Se podrán registrar y administrar pagos recurrentes. |Could|
@@ -33,11 +33,11 @@ En este proyecto contruiremos una plataforma de transferencias, con el objetivo 
 
 |**CODIGO**|**Requerimiento**|**Prioridad**|
 | :-: | :-: | :-: |
-|RNF01|La plataforma actualizará el saldo mediante el api.|Must|
+|RNF01|La plataforma actualizará el saldo mediante la API.|Must|
 |RNF02|La plataforma deberá recolectar los datos de la factura.|Must|
 |RNF03|La plataforma deberá realizar las operaciones con respecto al saldo dependiendo del tipo de pago.|Must|
-|RNF04|Se registrará la factura del proveedor en el registro de gastos|Must|
-|RNF05|El saldo disponible se irá actualizando según las transacciones realizadas.|Must|
+|RNF04|Se registrará la factura del proveedor en el registro de gastos|Could|
+|RNF05|El saldo disponible se actualizará según las transacciones realizadas.|Must|
 |RNF06|Se podrán asociar cuentas del banco. |Must|
 |RNF07|Se mostrarán en el calendario los pagos por realizar y se eliminarán los pagos realizados.|Should|
 
