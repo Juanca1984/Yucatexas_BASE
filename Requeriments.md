@@ -18,10 +18,10 @@ En este proyecto contruiremos una plataforma de transferencias, con el objetivo 
 |**CODIGO**|**Requerimiento**|**Prioridad**|
 | :-: | :-: | :-: |
 |RF01|El usuario podrá registrarse y acceder al sistema.|Must|
-|RF02|El usuario podrá visualizar las facturas dadas por los proveedores.|Must|
+|RF02|El usuario podrá visualizar las facturas dadas por los proveedores.|Won´t have|
 |RF03|El usuario podrá mandar a validar los gastos registrados.|Must|
 |RF04|Existirán dos tipos de cuenta, la de usuario y la de los proveedores.|Must|
-|RF05|Los proveedores podrán realizar el llenado de facturas en la plataforma.|Should|
+|RF05|Los proveedores podrán realizar el llenado de facturas en la plataforma.|Won´t have|
 |RF08|El pago se podrá efectuar de manera manual o automática.|Should|
 |RF09|El usuario podrá visualizar su estado de cuenta de cierto período de tiempo.|Should|
 |RF10|Se podrá elegir la cuenta con la que se pagará la deuda.|Should|
