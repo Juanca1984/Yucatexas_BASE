@@ -1,0 +1,13 @@
+
+<div class="form">
+    <h2 class="form__h2">¡Bienvenido Nuevo Usuario!</h2>
+    <h3 class="form__h3">Porfavor ingrese su usuario, contraseña y token para registrarse:</h3>
+    <form action="php/registro_usuario_be.php" method="POST">
+        <input type="text" placeholder="Usuario" name="Matrícula" required="required">
+        <input placeholder="Ingrese contraseña" name="Password" type="password" required="required">
+        <input placeholder="Ingrese token" name="Password" type="password" required="required">
+        <button>Registrarse</button>
+    </form>
+    <h4>Si ya se registró haga clic <a href="/login">aquí</a></h4>
+</div>
+{% include 'sitio/pie.html' %}

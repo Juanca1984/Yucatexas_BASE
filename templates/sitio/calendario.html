@@ -1,0 +1,14 @@
+{% include 'sitio/cabecera.html' %}
+        <div class="form">
+            <h1 class="form__h1">Calendario</h1>
+			<?php 
+			include('php/asignacion_tabla.php');
+			$verificar_codigo= mysqli_query($conexion, "SELECT * FROM finalizacion_voto WHERE codigo='12345'");
+
+			if(mysqli_num_rows($verificar_codigo) > 0){
+
+				header("Location: pagina_eleccion_finalizada.php");
+			}
+			?>	
+        </div>
+{% include 'sitio/pie.html' %}
