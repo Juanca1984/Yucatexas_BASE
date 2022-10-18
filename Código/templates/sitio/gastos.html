@@ -1,0 +1,73 @@
+{% include 'sitio/cabecera.html' %}
+<div class="form">
+    <h1 class="form__h1">Gastos</h1>
+    <!-- 			 <?php 
+			include('php/asignacion_tabla.php');
+			$verificar_codigo= mysqli_query($conexion, "SELECT * FROM finalizacion_voto WHERE codigo='12345'");
+
+			if(mysqli_num_rows($verificar_codigo) > 0){
+
+				header("Location: pagina_eleccion_finalizada.php");
+			}
+			?>	 -->
+</div><br/>   
+<div class="container">
+    <div class="row">
+        <div class="col-5">
+            <div class="card">
+                <div class="card-header">
+                    Registro Gasto
+                </div>
+                <div class="card-body">
+                    <form action="gastos/guardar" method="post">
+                        <div class="mb-3">
+                          <label for="txtProveedor" class="form-label">Proveedor</label>
+                          <input type="text"
+                            class="form-control" name="txtProveedor" id="txtProveedor" aria-describedby="helpId" placeholder="Ingrese al proveedor">
+                        </div>
+                        <div class="mb-3">
+                          <label for="txtMonto" class="form-label">Monto:</label>
+                          <input type="number"
+                            class="form-control" name="txtMonto" id="txtMonto" aria-describedby="helpId" placeholder="Ingrese monto a pagar">
+                        </div>
+                        <div class="mb-3">
+                          <label for="txtFecha" class="form-label">Fecha:</label>
+                          <input type="date"
+                            class="form-control" name="txtFecha" id="txtFecha" aria-describedby="helpId" placeholder="Ingrese la fecha a pagar">
+                        </div>
+                    </form>
+                </div>
+                <div class="card-footer text-muted">
+                </div>
+            </div>
+        </div>
+        <div class="col-7">
+            <div class="table-responsive">
+                <table class="table table-primary">
+                    <thead>
+                        <tr>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Monto</th>
+                            <th scope="col">Fecha</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="">
+                            <td scope="row">1</td>
+                            <td></td>
+                            <td>R1C3</td>
+                        </tr>
+                        <tr class="">
+                            <td scope="row">Item</td>
+                            <td>Item</td>
+                            <td>Item</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+        </div>
+        
+    </div>
+</div>
+{% include 'sitio/pie.html' %}
