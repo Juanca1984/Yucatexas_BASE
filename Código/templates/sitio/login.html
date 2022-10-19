@@ -1,47 +1,78 @@
-{% include 'sitio/cabecera.html' %}
-  <main>
-    <div class="p-5 bg-light">
-      <div>
-        <h1 class="display-3">BaseBank</h1>
-        <h2 class="form__h2">¡Bienvenido Usuario!</h2>
-        <h3 class="form__h3">Porfavor ingrese su usuario:</h3>
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>login.html</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="login/images/icons/icono-base.png"/>
+	<link rel="stylesheet" type="text/css" href="login/vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="login/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="login/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+	<link rel="stylesheet" type="text/css" href="login/vendor/animate/animate.css">
+	<link rel="stylesheet" type="text/css" href="login/vendor/css-hamburgers/hamburgers.min.css">
+	<link rel="stylesheet" type="text/css" href="login/vendor/animsition/css/animsition.min.css">
+	<link rel="stylesheet" type="text/css" href="login/vendor/select2/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="login/vendor/daterangepicker/daterangepicker.css">
+	<link rel="stylesheet" type="text/css" href="login/css/util.css">
+	<link rel="stylesheet" type="text/css" href="login/css/main.css">
+</head>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-4">
-                
-                </div>
-                <div class="col-4">
-                    <div class="card">
-                        <div class="card-header">
-                            Inicio de Sesión
-                        </div>
-                        <div class="card-body">
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100" style="background-image: url('login/images/bg-00.jpg');">
+			<div class="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">
+				<form class="login100-form validate-form flex-sb flex-w">
+					
+					<span class="login100-form-title">
+						<a href="https://www.bancobase.com/" target="_blank"><img src="login/images/icons/logo-base-marca.svg" href="https://www.bancobase.com/" alt="BASE"></a>
+						<h1>¡Bienvenido Usuario!</h1>
+					</span>
+					
+					<div class="p-t-31 p-b-9">
+						<span class="txt1">
+							Usuario
+						</span>
+					</div>
+					
+					<div class="wrap-input100 validate-input" data-validate = "Username is required">
+					  <input class="input100" type="text" name="txtUsuario" id="txtUsuario" aria-describedby="helpId" required="required">
+						<span class="focus-input100"></span>
+					</div>
+					
+					<div class="p-t-13 p-b-9">
+						<span class="txt1">
+							Contraseña
+						</span>
 
-                            <form action="/login" method="post">
-                                <div class="mb-3">
-                                    <label for="txtUsuario" class="form-label">Usuario</label>
-                                    <input type="text" class="form-control" placeholder="Usuario" name="txtUsuario" id="txtUsuario" aria-describedby="helpId" required="required">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="txtPassword" class="form-label">Contraseña</label>
-                                    <input class="form-control" placeholder="Contraseña" name="txtPassword" id="txtPassword" aria-describedby="helpId" type="password" required="required">
-                                </div>
-                                <button type="submit" class="btn btn-success">Login</button>
-                            </form>
+						<a href="#" class="txt2 bo1 m-l-5">
+							
+						</a>
+					</div>
+					<div class="wrap-input100 validate-input" data-validate = "Password is required">
+						<input class="input100" type="password" name="txtPassword" id="txtPassword" aria-describedby="helpId" type="password" required="required">
+						<span class="focus-input100"></span>
+					</div>
 
-                        </div>
-                        <div class="card-footer text-muted">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                
-                </div>
-            </div>
-        </div>
-        <h4 class="centrado">Si no se ha registrado haga clic <a href="/registro">aquí</a></h4>
-      </div>
-    </div>
-  </main>
-  {% include 'sitio/pie.html' %}
+					<div class="container-login100-form-btn m-t-17">
+						<button class="login100-form-btn">
+							Iniciar Sesión
+						</button>
+					</div>
+
+					<div class="w-full text-center p-t-55">
+						<span class="txt2">
+							Si no se ha registrado haga clic
+						</span>
+
+						<a href="#" class="txt2 bo1">
+							aquí
+						</a>
+					</div>
+			  </form>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
