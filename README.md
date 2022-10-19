@@ -1,3 +1,7 @@
 # Yucatexas_BASE
 
-# LinkJob ![Logo](./icono-base.svg)
+![Logo](./icono-base.svg)
+
+##Tabla de contenidos
+
+*[Información general] (Informacion-general)
