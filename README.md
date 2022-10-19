@@ -1,36 +1,36 @@
-# Yucatexas_BASE
+# Yucatexas  BASE
 
 ![Logo](./Img/logo-base-marca.svg)
 
-## Tabla de contenidos
+## Tabla De Gontenidos
 
-* [Información general](#información-general)
-* [Tecnologías usadas](#tecnologías-usadas)
-* [Estado del proyecto](#estado-del-proyecto)
-* [Espacio para mejora](#espacio-para-mejora)
+* [Información General](#información-General)
+* [Tecnologías Usadas](#tecnologías-Usadas)
+* [Estado Del Proyecto](#estado-Del-Proyecto)
+* [Espacio Para Mejora](#espacio-Para-Mejora)
 * [Agradecimientos](#agradecimientos)
 * [Contacto](#contacto)
 
 
-## Información general
+## Información General
 
 - Aplicación desarrollada como resultado del reto propuesto por Banco Base
 - Existe una monotonía y complejidad innecesaria en el desarrollo de las actividades de los tesoreros del recinto bancario, por lo que decidimos romper la dictadura de la uniformidad que afecta a esta profesión
 - La ingeniería y actuaría decidieron actuar en conjunto para poder atacar de la mejor manera este problema que afecta de manera silenciosa
 
-## Tecnologías usadas
+## Tecnologías Usadas
 -  Python
 -  HTML
 -  MySQL
 -  Amazon Web Services
 
-## Estado del proyecto
+## Estado del Proyecto
 
 El proyecto está _parcialmente completado_
 
 Tenemos una base sólida de donde seguir construyendo la mejor solución posible pues se utilizó una lógica de programación y negocios que traerá un nuevo aire e identidad renovada a los procesos implicados en esta parte específica del organismo bancario
 
-## Espacio para mejora
+## Espacio Para Mejora
 
 Como todo en la vida, todo se puede mejorar y este proyecto no es una excepción
 
