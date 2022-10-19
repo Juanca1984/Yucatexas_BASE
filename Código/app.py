@@ -5,6 +5,8 @@ from flask import render_template,request,redirect
 from flaskext.mysql import MySQL
 from pkg_resources import ContextualVersionConflict
 
+with open("gastos.txt","w") as file_object:
+    file_object.write("Registro de gastos:\n\n")
 app=Flask(__name__)
 mysql=MySQL()
 
@@ -41,7 +43,17 @@ def gastos_gurdar():
     _nombre=request.form['txtProveedor']
     _monto=request.form['txtMonto']
     _fecha=request.form['txtFecha']
-    _concepto=request.form['txtConcepto'] 
+    _concepto=request.form['txtConcepto']
+    file=open("gastos.txt","a")
+    file.write("----------------------------\n")
+    file.write(_nombre)
+    file.write("\n")
+    file.write(_monto)
+    file.write("\n")
+    file.write(_fecha)
+    file.write("\n")
+    file.write(_concepto)
+    file.write("\n-----------------------------\n\n") 
     
     sql="INSERT INTO gastos(id,nombre,monto,fecha,concepto) VALUES(NULL,%s,%s,%s,%s);"
     datos=(_nombre,_monto,_fecha,_concepto)
