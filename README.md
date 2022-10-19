@@ -43,7 +43,7 @@ Tenemos la oportunidad de implementar más APIs para agregar incluso más funcio
 
 ## Agradecimientos
 
-- Banco Base por esta gran oportunidad para aprender y mejorar nuestro razonamiento, nuestras habilidades como inhenieros y lo más importante, como personas. 
+- Banco Base por esta gran oportunidad para aprender y mejorar nuestro razonamiento, nuestras habilidades como ingenieros y lo más importante, como personas. 
 
 ## Contacto
 
