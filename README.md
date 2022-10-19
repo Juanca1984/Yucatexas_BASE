@@ -14,6 +14,11 @@
 
 ## Información General
 
+Yucatexas-Base es un proyecto de software dedicado a resolver la problemática 1 
+del Hackaton Base 2022.
+Para resolver esta problemática, optamos por desarrollar una plataforma web
+donde los tesoreros podrán agilizar el proceso de cobros y pagos de las empresas:
+
 - Aplicación desarrollada como resultado del reto propuesto por Banco Base
 - Existe una monotonía y complejidad innecesaria en el desarrollo de las actividades de los tesoreros del recinto bancario, por lo que decidimos romper la dictadura de la uniformidad que afecta a esta profesión
 - La ingeniería y actuaría decidieron actuar en conjunto para poder atacar de la mejor manera este problema que afecta de manera silenciosa
