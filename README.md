@@ -30,7 +30,7 @@ El proyecto está _parcialmente completado_
 
 Tenemos una base sólida de donde seguir construyendo la mejor solución posible pues se utilizó una lógica de programación y negocios que traerá un nuevo aire e identidad renovada a los procesos implicados en esta parte específica del organismo bancario
 
-## Espacio para mejora
+## Espacio para Mejora
 
 Como todo en la vida, todo se puede mejorar y este proyecto no es una excepción
 
