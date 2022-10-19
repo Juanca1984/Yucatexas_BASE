@@ -1,6 +1,6 @@
 # Yucatexas_BASE
 
-![Logo](./img/icono-base.svg)
+![Logo](./img/logo-base-marca.svg)
 
 ## Tabla de contenidos
 
