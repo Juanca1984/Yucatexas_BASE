@@ -4,4 +4,4 @@
 
 ##Tabla de contenidos
 
-*[Información general] (#Informacion-general)
+* [Información general] (#Informacion-general)
